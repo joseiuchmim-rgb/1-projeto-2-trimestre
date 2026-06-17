@@ -28,10 +28,13 @@
                 display: flex;
                 
             } 
-            img{
+            img {
                 width: 80px;
                 height: 80px;
-            }  
+            } 
+            div p{
+                font-weight: bold;
+                }
         </style>
         </head>
     <body>
@@ -40,14 +43,22 @@
         <p>Vou compartilhar conhecimentos sobre tecnologia e programação.</p>
         </header>
         <main>
-        <img src="Gemini_Generated_Image_dccr1idccr1idccr.png" alt="Ícone em estilo pixel art para blog de tecnologia e educação. No centro, um livro aberto exibe circuitos eletrônicos brilhantes em uma das páginas e linhas de código na outra. Uma lâmpada acesa usando um capelo (chapéu de formatura) flutua sobre o livro. O design usa tons de azul, verde e amarelo neon sobre um fundo escuro.">
+        <img src="Gemini_Generated_Image_dccr1idccr1idccr.png" alt="icone em estilo pixel art para blog de tecnologia e educacao. No centro, um livro aberto exibe circuitos eletronicos brilhantes em uma das paginas e linhas de codigo na outra. Uma lampada acesa usando um capelo (chapeu de formatura) flutua sobre o livro. O design usa tons de azul, verde e amarelo neon sobre um fundo escuro.">
         <div>
            <h2>Meu Primeiro Post</h2>
         <p>Por:José Miguel K.</p>
         <p>Boas-vindas ao meu Novo Blog!, aqui vou compartilhar dicas de programação e curiosidades da área de tecnologia.</p> 
+        <button>💙 <span>0</span></button>
         </div>
 
         </main>
      </body>
+     <script>
+        const botao = document.querySelector("button");
+        botao.addEventListener("click", botaoClicado);
+
+        function botaoClicado(){
+            console.log("fui clicado");
+ </script>
     </html>
         
