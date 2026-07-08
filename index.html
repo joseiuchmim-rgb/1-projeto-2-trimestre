@@ -28,7 +28,7 @@
             margin: 0 auto;
             padding: 16px;
         }
-        article{
+        article {
             display: flex;
 }
         img {
@@ -53,26 +53,25 @@
             <img src="img.blog.png" alt="Um ícone neon quadrado estilizado sobre um fundo escuro desfocado. O ícone retrata um livro aberto e uma lâmpada com uma letra "e" dentro, ambos formados por linhas luminosas de neon azul, laranja e verde. Circuitos e pequenos símbolos de tecnologia e educação, como uma caneta, um átomo, um ícone de Wi-Fi e um pequeno livro, estão integrados ao design. Abaixo do ícone, o texto "TECH & ED" está escrito em letras brancas brilhantes. O design geral é moderno, tecnológico e evoca uma sensação de inovação e aprendizado.">
             <div>
                 <h2>Meu Primeiro Post</h2>
-                <p class="autor-artigo" Miguel K.></p>
+                <p class="artigo-autor" Jose Miguel K.></p>
                 <p>Boas-vindas ao meu Novo Blog!, aqui vou compartilhar dicas de programação e curiosidades da área de
                     tecnologia.</p>
                 <button>💙<span>0</span></button>
                 <button>💔<span>0</span></button>
             </div>
-
+            <main>
         </article>
-        <article>
 <img src="img.blog.png" alt="Um ícone neon quadrado estilizado sobre um fundo escuro desfocado. O ícone retrata um livro aberto e uma lâmpada com uma letra "e" dentro, ambos formados por linhas luminosas de neon azul, laranja e verde. Circuitos e pequenos símbolos de tecnologia e educação, como uma caneta, um átomo, um ícone de Wi-Fi e um pequeno livro, estão integrados ao design. Abaixo do ícone, o texto "TECH & ED" está escrito em letras brancas brilhantes. O design geral é moderno, tecnológico e evoca uma sensação de inovação e aprendizado.">
             <div>
                 <h2>Meu Segundo Post</h2>
-                <p class="autor-artigo" Miguel K.></p>
+                <p class="artigo-autor" Jose Miguel K.></p>
                 <p>Boas-vindas ao meu Novo Blog!, aqui vou compartilhar dicas de programação e curiosidades da área de
                     tecnologia.</p>
                 <button>💙<span>0</span></button>
                 <button>💔<span>0</span></button>
-        </article>
-
-    </main>
+                </div>
+                </article>
+                </main>
 </body>
 <script>
     const botoes = document.querySelectorAll("button");
@@ -86,7 +85,7 @@ botoes.forEach(function (botao) {
             if (curtiu === false){
                 texto.textContent++;
                 curtiu = true;
-            } else{
+            } else {
                 texto.textContent--;
                 curtiu = false;
             }
